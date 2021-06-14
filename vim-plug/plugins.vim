@@ -18,5 +18,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'vimwiki/vimwiki'
     " Theme
     Plug 'joshdick/onedark.vim'
+    " Stable Version of CoC
+    Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
     call plug#end()
